@@ -99,8 +99,7 @@ h2 {
 ul, ol {
   /* 1. Remove the default list style */  
   list-style: none;
-  padding-left: 2%;
-  font-size: 0.9rem;
+  padding-left: 2%;  
 }
 
 ul > li::before {
