@@ -70,8 +70,8 @@ header h1 {
 }
 
 #section-1 img, #section-2 img {
-  width: 40%;
-  padding-top: 3%;
+  width: 80%;
+  padding-top: 7%;
 }
 
 #section-1 p {
@@ -118,4 +118,27 @@ ol > li::before {
 
 ol {
   margin-bottom: 5%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px)  {
+
+  #section-1 img, #section-2 img {
+    width: 50%;
+    padding-top: 4%;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+
+  #section-1 img, #section-2 img {
+    width: 45%;
+    padding-top: 3%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  #section-1 img, #section-2 img {
+    width: 35%;
+    padding-top: 2%;
+  }
 }
