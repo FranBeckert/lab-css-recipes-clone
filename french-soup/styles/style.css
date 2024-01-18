@@ -27,7 +27,8 @@ header h1 {
   font-size: 3rem;
   font-family: inherit;
   font-weight: normal;
-  /* the font-weigth schould be lighter... */
+  text-align: center;
+  
 }
 
 #section-1, #section-2, #section-3 {
@@ -51,7 +52,7 @@ header h1 {
 }
 
 #section-1 img, #section-2 img {
-  width: 40%;
+  width: 80%;
   padding-top: 3%;
 }
 
@@ -98,4 +99,28 @@ ol > li::before {
 
 ol {
   margin-bottom: 5%;
+}
+
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 1024px)  {
+
+  #section-1 img, #section-2 img {
+    width: 60%;
+    padding-top: 2%;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+
+  #section-1 img, #section-2 img {
+    width: 45%;
+    padding-top: 3%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  #section-1 img, #section-2 img {
+    width: 35%;
+    padding-top: 2%;
+  }
 }
